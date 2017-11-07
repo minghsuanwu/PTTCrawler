@@ -50,6 +50,14 @@ import com.gargoylesoftware.htmlunit.html.HtmlSubmitInput;
  */
 public class PTTCrawler {
 
+	/**
+	 * 
+	 * @param boardName
+	 * @param pageLimit
+	 * @param forceTitleList
+	 * @param disableTitleList
+	 * @param printInfoFlag
+	 */
 	public static void processBoard(String boardName, int pageLimit, 
 			ArrayList<String> forceTitleList, ArrayList<String> disableTitleList, boolean printInfoFlag) {
 		PTTCrawler JSoupPTTData = new PTTCrawler();
